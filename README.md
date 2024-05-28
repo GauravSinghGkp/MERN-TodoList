@@ -16,6 +16,7 @@ This is a comprehensive TodoList application built using the MERN (MongoDB, Expr
 ## Technologies Used
 
 - **Frontend**:
+
   - React
   - Axios (for HTTP requests)
   - CSS (for styling)
@@ -30,14 +31,16 @@ This is a comprehensive TodoList application built using the MERN (MongoDB, Expr
 To run this project locally, follow these steps:
 
 1. **Clone the repository**:
+
    ```bash
    git clone https://github.com/yourusername/mern-todolist.git
-   cd mern-todolist
+   cd MERN-TodoList
    ```
 
 2. **Install dependencies**:
 
    - For the backend:
+
      ```bash
      cd backend
      npm install
@@ -52,6 +55,7 @@ To run this project locally, follow these steps:
 3. **Set up environment variables**:
 
    Create a `.env` file in the `backend` directory with the following content:
+
    ```
    MONGO_URI=your_mongodb_connection_string
    PORT=5000
@@ -60,6 +64,7 @@ To run this project locally, follow these steps:
 4. **Run the application**:
 
    - Start the backend server:
+
      ```bash
      cd server
      npm start
