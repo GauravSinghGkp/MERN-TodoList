@@ -1,0 +1,64 @@
+/* Todo List */
+
+.todo_list {
+  max-width: 700px;
+  text-align: center;
+  margin: auto;
+  padding: 20px;
+}
+.create_todo {
+  display: flex;
+  width: 100%;
+  margin-bottom: 30px;
+}
+#todo_input {
+  flex: 1;
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+  font-size: 18px;
+  border: none;
+}
+
+#todo_input:focus {
+  outline: none;
+}
+
+.btn {
+  padding: 10px 20px;
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+  border-left: none;
+  font-size: 18px;
+  background-color: #4dabf7;
+  color: #fff;
+  border: none;
+}
+
+/* Todo */
+.todo-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 10px;
+  padding: 0 20px;
+  background-color: white;
+  border-radius: 10px;
+}
+.task {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  overflow-x: hidden;
+}
+
+.strikethrough {
+  text-decoration: line-through;
+}
+
+.del-btn {
+  height: 30px;
+}
+
+#complete {
+  max-height: 30px;
+}
